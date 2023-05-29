@@ -12,13 +12,13 @@ Table of Contents
     Contribution
     License
 
-Technical Stack
+#Technical Stack
 
     Kotlin
     Android XML
     Ktor (server-side)
 
-Used Libraries
+#Used Libraries
 
     Easy Permissions - Simplifies Android permissions.
     Retrofit - A type-safe HTTP client for Android and Java.
