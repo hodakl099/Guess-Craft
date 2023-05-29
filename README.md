@@ -29,7 +29,7 @@ To clone and run this application, you'll need [Git](https://git-scm.com) and [A
 
 # Clone this repository
 
-``
+```
 $ git clone https://github.com/hodakl099/GuessCraft.git
 
 # Go into the repository
@@ -37,7 +37,8 @@ $ cd GuessCraft
 
 # Install dependencies
 $ ./gradlew build
-``
+
+```
 
 # GuessCraft - Server and Client Communication Setup Guide
 
@@ -57,7 +58,7 @@ ktor {
         modules = [ com.mahmoud.ApplicationKt.module ]
     }
 }
-``
+```
 
 In this file, the server is configured to run on port `8001`.
 
@@ -67,11 +68,11 @@ Your Android application needs to be set up to communicate with the server. This
 
 If you're running your app on an Android emulator, the IP address 10.0.2.2 is used to access your machine's local loopback interface. Therefore, your base URLs will look like this:
 
-``kotlin
-
+kotlin
+```
 const val HTTP_BASE_URL_LOCALHOST = "http://10.0.2.2:8001/"
 const val WS_BASE_URL_LOCALHOST = "ws://10.0.2.2:8001/ws/draw"
-``
+```
 
 Note: For WebSocket connections, the scheme should be either ws:// for unsecured or wss:// for secured connections.
 
@@ -79,11 +80,11 @@ If you're running the app on a physical Android device that's connected to the s
 
 Once you have your local network IP address, you can replace 10.0.2.2 in the above URLs with that address. Here's an example:
 
-``kotlin
-
+kotlin
+```
 const val HTTP_BASE_URL = "http://192.168.1.5:8001/"
 const val WS_BASE_URL = "ws://192.168.1.5:8001/ws/draw"
-``
+```
 
 Final Note
 
