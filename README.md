@@ -1,5 +1,5 @@
 # Guess-Craft
-GuessCraft
+
 
 GuessCraft is an engaging multiplayer word guessing game, developed using Kotlin and Android XML. In this game, one player chooses a word from a selection of three provided by the server, and other players attempt to guess that word.
 
