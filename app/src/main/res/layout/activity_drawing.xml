@@ -208,7 +208,7 @@
             app:layout_constraintTop_toTopOf="parent">
 
             <ImageView
-                android:id="@+id/ivHappyMonkey"
+                android:id="@+id/ivGuessedIt"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="50dp"
@@ -216,7 +216,7 @@
                 app:layout_constraintHorizontal_bias="0.5"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                app:srcCompat="@drawable/ic_happy_monkey" />
+                app:srcCompat="@drawable/idea" />
 
             <com.google.android.material.textview.MaterialTextView
                 android:id="@+id/tvChooseWord"
@@ -228,7 +228,7 @@
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.5"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/ivHappyMonkey" />
+                app:layout_constraintTop_toBottomOf="@+id/ivGuessedIt" />
 
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/btnFirstWord"
