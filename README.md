@@ -47,7 +47,7 @@ In order to have both the GuessCraft Server and Android application communicate 
 The Ktor server typically runs on localhost and a specified port. In your application.conf file (or wherever you have your Ktor server set up), make sure the port is set to 8001.
 
 Here's an example of what the application.conf file may look like:
-``
+```
 ktor {
     deployment {
         port = 8001
