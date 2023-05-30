@@ -75,8 +75,6 @@ const val HTTP_BASE_URL_LOCALHOST = "http://10.0.2.2:8001/"
 const val WS_BASE_URL_LOCALHOST = "ws://10.0.2.2:8001/ws/draw"
 ```
 
-Note: For WebSocket connections, the scheme should be either ws:// for unsecured or wss:// for secured connections.
-
 If you're running the app on a physical Android device that's connected to the same local network as your server, you should use your machine's local network IP address. To find your local network IP address on most machines, you can run ipconfig (Windows) or ifconfig (Mac/Linux) in a terminal/command prompt, and look for the IPv4 Address.
 
 Once you have your local network IP address, you can replace 10.0.2.2 in the above URLs with that address. Here's an example:
