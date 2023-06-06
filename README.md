@@ -86,5 +86,6 @@ const val WS_BASE_URL = "ws://192.168.1.5:8001/ws/draw"
 ```
 
 Final Note
+-Make sure to clone the server repository [Ktor-GuessCraft-Server](https://git-scm.com](https://github.com/hodakl099/GuessCraft-Server)
 
 This setup ensures that both your server and your Android application are communicating on the same port, and that they can find each other on the network. Be aware that the specific IP address and port you use can depend on your network setup.
